@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    outline: none;
+}
+
+body {
+    background-image: url("backgroundv1.png");
+    background-size: cover;
+    font-family: "poppins", sans-serif;
+}
+
+
+/* NavBar*/
+
+.link {
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    width: 55%;
+    justify-content: space-around;
+    right: 2%;
+    top: 2%;
+    height: 10vh;
+    align-items: center;
+}
+
+.btn {
+    background-color: #203647;
+    padding: 10px;
+    border-radius: 40px;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.link li a {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    transition: all ease-in-out .3s;
+}
+
+.link li a:hover {
+    color: #12232E;
+    border-bottom: 1px solid #12232E;
+}
+
+.link li a button {
+    cursor: pointer;
+    font-size: 23px;
+    padding: 15px;
+    color: white;
+    background-color: #12232E;
+    border: none;
+    border-radius: 230px;
+}
+
+.isi {
+    position: absolute;
+    top: 30%;
+    left: 9%;
+}
+
+
+
+.isi h1 {
+    font-weight: 500;
+    color: white;
+    font-size: 43px;
+}
+
+.isi p {
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+}
+
+.isi a {
+    position: absolute;
+    top: 110%;
+    text-decoration: none;
+    padding-top: 20px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    color: #203647;
+    font-weight: 200;
+    padding: 8px;
+    background-color: #4DA8DA;
+}
+
+
+.social {
+    position: absolute;
+    right: 1%;
+    top: 40%;
+}
+
+.social ul {
+    list-style-type: none;
+
+}
+
+.social ul li {
+    margin-bottom: 10px;
+}
+
+.social ul li:hover {
+    transform: scale(1.1);
+}
